@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap'); /* quais fontes estou usando */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} /* para anular pré configurações */
+
+body {
+    background-color: white;
+} /*configuração do fundo*/
+
+.navegação {
+    width: 88%;
+    height: 263px;
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    background-color: #3C3D59;
+    display: block;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+} /*os dois desenharam o caixote*/
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} /*estilização do cabeçalho */
+
+.perfil {
+    height: 72px;
+    margin-right: 950px;
+    padding: 5px;
+}    
+
+.cabeçalho-menu {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 25px;
+    gap: 32px;
+} /*estilização das palavras que tem dentro do cabeçalho*/
+
+.cabelhaço-menu-item {
+    color: white;
+    font-weight: 400; /*peso da fonte*/
+    border-bottom: 1px solid transparent;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+} /*especilização das palavras dentro do cabelhaço*/
+
+.cabelhaço-menu-item:hover {
+    transform: scale(1.1);
+}
+
+.conteudo {
+    color: black;
+    margin-bottom: 48px;
+    /*margem do final do conteúdo até o início do rodapé*/
+} /*estilização do conteúdo*/
+
+.efeito-principal-rolagem, .borda-apresentacao, .apresentacao-titulo, .apresentacao-texto, .borda-skills, .skills-titulo, .grafico-html-nome, .grafico-html, .grafico-html-sobre, .grafico-css-nome, .grafico-css, .grafico-css-sobre, .grafico-javascript-nome, .grafico-javascript, .grafico-javascript-sobre, .grafico-php-nome, .grafico-php, .grafico-php-sobre, .grafico-cmais-nome, .grafico-cmais, .grafico-cmais-sobre, .grafico-sql-nome, .grafico-sql, .grafico-sql-sobre, .grafico-phyton-nome, .grafico-phyton, .grafico-phyton-sobre, .grafico-java-nome, .grafico-java, .grafico-java-sobre, .efeito-rodape-rolagem {
+    visibility: hidden;
+}
+
+.conteudo-principal {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+} /*estilização do texto e imagem*/
+
+.conteudo-principal-texto-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 90px;
+} /*estilizando de forma geral o texto*/
+
+.conteudo-principal-nome {
+    font-size: 60px;
+    margin-top: 200px;
+    margin-right: 700px;
+    text-align: center;
+} /*tamanho do conteúdo do resumo*/
+
+.conteudo-principal-especificacao {
+    font-size: 40px;
+    margin-top: -15px;
+    margin-right: 700px;
+    text-align: center;
+}
+
+.botao-contato {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: -500px;
+    margin-right: 100px;
+    font-size: 29px;
+    border: none;
+    background-color: #7566D4;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .botao-contato::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+
+  .botao-contato:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+
+  .botao-contato::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-radius: 20px;
+    border: 2px solid #140F37;
+    transform: scale(1.2,1.2);
+  }
+
+  .botao-contato:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+
+.borda-apresentacao {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+
+.apresentacao-titulo {
+    font-size: 52px;
+    color: black;
+    margin-left: 225px;
+    margin-top: 60px;
+}
+
+.apresentacao-texto {
+    font-size: 33px;
+    color: black;
+    margin-left: 225px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-right: 225px;
+}
+
+#btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.rodapei {
+    background-color:#3C3D59;
+    display: block;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 100%;
+    height: px;
+    padding: 40px;
+    border-top: 3px solid black;
+}
+
+.rodape {
+    padding: 0px;
+}
+
+.rodape-destaque {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.rodape-email {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.meiosdecontato {
+    display: flex;
+    justify-content: flex-start;
+    width: 25px;
+    height: 25px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}

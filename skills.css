@@ -1,0 +1,219 @@
+.borda-skills {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+
+.skills-titulo {
+    margin-top: 60px;
+    font-size: 52px;
+    color: black;
+    text-align: center;
+}
+
+.grafico-html-nome {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-html {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-html-sobre {
+    position: relative;
+    height: 5px;
+    width: 130px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-css-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-css {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-css-sobre {
+    position: relative;
+    height: 5px;
+    width: 100px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+} 
+
+.grafico-javascript-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-javascript {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-javascript-sobre {
+    position: relative;
+    height: 5px;
+    width: 20px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-php-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-php {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-php-sobre {
+    position: relative;
+    height: 5px;
+    width: 40px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-cmais-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+} 
+.grafico-cmais {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-cmais-sobre {
+    position: relative;
+    height: 5px;
+    width: 45px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-sql-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-sql {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-sql-sobre {
+    position: relative;
+    height: 5px;
+    width: 45px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-phyton-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-phyton {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-phyton-sobre {
+    position: relative;
+    height: 5px;
+    width: 10px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}
+
+.grafico-java-nome {
+    margin-top: 13px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.grafico-java {
+    position: absolute;
+    margin-top: 5px;
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin-left: 661px;   
+    z-index: 1;
+}
+.grafico-java-sobre {
+    position: relative;
+    height: 5px;
+    width: 10px;
+    background-color: #7566D4;
+    margin-left: 661px;
+    float: initial;
+    z-index: 2;
+    margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap'); /* quais fontes estou usando */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} /* para anular pré configurações */
+
+body {
+    background-color: #3C3D59;
+} /*configuração do fundo*/
+
+.navegação {
+    width: 88%;
+    height: 263px;
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    background-color:white;
+    display: block;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+} /*os dois desenharam o caixote*/
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} /*estilização do cabeçalho */   
+
+.cabeçalho-menu {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+} /*estilização das palavras que tem dentro do cabeçalho*/
+
+.cabelhaço-menu-item {
+    color: black;
+    font-weight: 400; /*peso da fonte*/
+}
