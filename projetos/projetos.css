@@ -8,7 +8,7 @@
 } /* para anular pré configurações */
 
 body {
-    background-color: #3C3D59;
+    background-color: white;
 } /*configuração do fundo*/
 
 .navegação {
@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-    background-color:white;
+    background-color:#3C3D59;
     display: block;
     margin-right: 30px;
     overflow: hidden;
@@ -45,6 +45,6 @@ body {
 } /*estilização das palavras que tem dentro do cabeçalho*/
 
 .cabelhaço-menu-item {
-    color: black;
+    color: white;
     font-weight: 400; /*peso da fonte*/
 }
