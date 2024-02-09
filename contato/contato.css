@@ -78,6 +78,33 @@ textarea {
     font-family: "Old Standard", sans-serif;
 }
 
+.rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 275px;
+}
+
+.fa-brands {
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-brands, .fa-linkedin {
+    color: black;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.fa-regular {
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
 button {
     background-color: #3C3D59;
     color: #fff;
