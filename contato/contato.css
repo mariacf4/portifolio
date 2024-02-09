@@ -73,12 +73,13 @@ textarea {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #3C3D59;
     border-radius: 4px;
+    font-family: "Old Standard", sans-serif;
 }
 
 button {
-    background-color: #231D40;
+    background-color: #3C3D59;
     color: #fff;
     padding: 10px 15px;
     border: none;
